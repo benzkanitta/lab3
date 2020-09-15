@@ -37,10 +37,16 @@
   user-select: none;
  }
  
-
+ body{
+  background-image: url(bb.jpg);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+ }
+ 
  .activeCard {
-  color: red;
-  background: pink;
+  color: rgb(0, 255, 255);
+  background: rgb(235, 71, 99);
  }
  
 @keyframes App-logo-spin {
